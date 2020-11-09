@@ -68,6 +68,5 @@ if __name__ == "__main__":
     G = nx.Graph()
     G.add_nodes_from(users)  # add his distances account
     G.add_edges_from(edges)
-    nx.draw(G, with_labels=True, font_weight='bold')
-    plt.figure(num=None, figsize=(40, 40), dpi=1200)
+    nx.draw(G, with_labels=True)
     plt.show()
